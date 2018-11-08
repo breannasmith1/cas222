@@ -5,8 +5,339 @@
 /*Silver*/
 /*White*/
 /*Black*/
+/*Mobile*/
+@media only screen and (min-device-width: 320px) {
+  * {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  body {
+    background-color: #c0c0c0;
+    width: 100%;
+    height: 100%;
+  }
+  /*Header*/
+  header {
+    background-color: #363636;
+    overflow: auto;
+    border-bottom: solid 5px #990000;
+    opacity: 0.9;
+  }
+  header h1 {
+    font-size: 1.5em;
+    color: #ffffff;
+    float: right;
+    margin-right: 2em;
+  }
+  /*Hamburger Menu*/
+  #menu {
+    display: none;
+  }
+  .hamburgerBars {
+    display: block;
+    cursor: pointer;
+    padding-left: 3em;
+    padding-top: 3em;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: block;
+  }
+  .mobile-container {
+    margin: auto;
+  }
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  #myLinks {
+    display: inline-block;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav,
+  a:link {
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-shadow: -2px -1px 0 #000000;
+  }
+  a:visited {
+    color: #8d8d8d;
+  }
+  /*Main*/
+  main {
+    margin: 1.5em 0 1.5em 0;
+    width: 100%;
+  }
+  #tempImage {
+    display: none;
+  }
+  #article1 {
+    background-color: #ffffff;
+    padding: 1.5em 1.5em 1.5em 1em;
+  }
+  #article1 h2 {
+    color: #000000;
+    text-shadow: -1px -1px 0 #ff0000;
+  }
+  #p1 {
+    text-align: justify;
+  }
+  #article2 h2 {
+    color: #000000;
+    text-shadow: -1px -1px 0 #ff0000;
+  }
+  #article2 {
+    background-color: #ffffff;
+    padding: 1em 1.5em 1.5em 1em;
+    overflow: auto;
+    margin-top: 2em;
+  }
+  #p2 {
+    text-align: justify;
+  }
+  #section2 {
+    color: #ff0000;
+    border-top: 2px solid #ff0000;
+  }
+  button {
+    border: none;
+    display: block;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+  }
+  #faqlist {
+    color: #000000;
+    padding-left: 1em;
+  }
+  #article3 h2 {
+    color: #000000;
+    text-shadow: -1px -1px 0 #ff0000;
+  }
+  #article3 {
+    background-color: #ffffff;
+    padding: 1em 1.5em 1.5em 1em;
+    overflow: auto;
+    margin-top: 2em;
+  }
+  #p3 {
+    text-align: justify;
+  }
+  /*Footer*/
+  /*Footer*/
+  footer {
+    background-color: #363636;
+    overflow: auto;
+    border-top: solid 5px #990000;
+    opacity: 0.9;
+    width: 100%;
+    padding: 0;
+    margin-top: 1.3em;
+  }
+  .container {
+    display: inline-block;
+  }
+  footer .container p {
+    padding-top: 2em;
+    padding-left: 1em;
+    text-align: center;
+    color: #ffffff;
+  }
+  footer .container ul {
+    display: none;
+  }
+  .container #socialmedia {
+    margin-left: 3em;
+    padding-left: 2em;
+  }
+}
+/*Tablet*/
+@media only screen and (min-device-width: 750px) {
+  * {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  body {
+    background-color: #c0c0c0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  /*Header*/
+  header {
+    background-color: #363636;
+    overflow: auto;
+    border-bottom: solid 5px #990000;
+    opacity: 0.9;
+  }
+  header h1 {
+    float: right;
+    font-size: 1.5em;
+    margin: 1.5em 0 0 1em;
+    padding: 0 1em 1em 2em;
+    color: #ffffff;
+  }
+  /*Menu and Dropdown*/
+  /*Hamburger Menu*/
+  #menu {
+    display: none;
+  }
+  .hamburgerBars {
+    display: block;
+    cursor: pointer;
+    padding-left: 3em;
+    padding-top: 3em;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: block;
+  }
+  .mobile-container {
+    margin: auto;
+  }
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  #myLinks {
+    display: inline-block;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav,
+  a:link {
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-shadow: -2px -1px 0 #000000;
+  }
+  a:visited {
+    color: #8d8d8d;
+  }
+  /*Main*/
+  #tempImage {
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 1em 1em 0 1em;
+  }
+  #article1 {
+    background-color: #ffffff;
+    overflow: auto;
+    padding: 0 2em 0 1.5em;
+    margin: 0;
+  }
+  #article1 h2 {
+    color: #000000;
+    text-shadow: -1px -1px 0 #ff0000;
+    padding-left: 2em;
+  }
+  #p1 {
+    text-align: justify;
+  }
+  #article2 h2 {
+    color: #000000;
+    text-shadow: -1px -1px 0 #ff0000;
+    padding-left: 2em;
+  }
+  #article2 {
+    background-color: #ffffff;
+    overflow: auto;
+    margin-top: 2em;
+    padding: 0;
+  }
+  #section1 {
+    float: left;
+    width: 60%;
+    padding: 1em 0 1.5em 1.5em;
+  }
+  #p2 {
+    text-align: justify;
+  }
+  #section2 {
+    color: #ff0000;
+    float: right;
+    width: 30%;
+    border-left: 2px solid #ff0000;
+    border-top: none;
+    padding: 1em 0 2em 2em;
+  }
+  button {
+    border: none;
+    display: block;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+  }
+  #faqlist {
+    color: #000000;
+    padding-left: 1em;
+  }
+  #article3 h2 {
+    color: #000000;
+    text-shadow: -1px -1px 0 #ff0000;
+    padding-left: 2em;
+  }
+  #article3 {
+    background-color: #ffffff;
+    padding: 1em 1.5em 1.5em 1em;
+    overflow: auto;
+    margin-top: 2em;
+  }
+  #p3 {
+    text-align: justify;
+  }
+  /*Footer*/
+  footer {
+    background-color: #363636;
+    overflow: auto;
+    border-top: solid 5px #990000;
+    opacity: 0.9;
+    width: 100%;
+    padding: 0;
+    margin-top: 1.3em;
+  }
+  .container {
+    display: inline;
+  }
+  footer .container p {
+    float: left;
+    margin-left: 2em;
+    padding-top: 2em;
+    text-align: center;
+    color: #ffffff;
+  }
+  footer .container ul {
+    display: none;
+  }
+  .container #socialmedia {
+    float: right;
+    padding: 0;
+    display: inline;
+    padding: 2em 2em 0 0;
+  }
+}
 /*Desktop*/
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1200px) {
   * {
     font-family: 'Source Sans Pro', sans-serif;
   }
@@ -209,337 +540,6 @@
     font-size: 1em;
     margin-left: 25%;
     padding: 0;
-  }
-  .container #socialmedia {
-    float: right;
-    padding: 0;
-    display: inline;
-    padding: 2em 2em 0 0;
-  }
-}
-/*Mobile*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  * {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  body {
-    background-color: #c0c0c0;
-    width: 100%;
-    height: 100%;
-  }
-  /*Header*/
-  header {
-    background-color: #363636;
-    overflow: auto;
-    border-bottom: solid 5px #990000;
-    opacity: 0.9;
-  }
-  header h1 {
-    font-size: 1.5em;
-    color: #ffffff;
-    float: right;
-    margin-right: 2em;
-  }
-  /*Hamburger Menu*/
-  #menu {
-    display: none;
-  }
-  .hamburgerBars {
-    display: block;
-    cursor: pointer;
-    padding-left: 3em;
-    padding-top: 3em;
-  }
-  .bar1,
-  .bar2,
-  .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #ffffff;
-    margin: 6px 0;
-    transition: 0.4s;
-    display: block;
-  }
-  .mobile-container {
-    margin: auto;
-  }
-  .topnav {
-    overflow: hidden;
-    position: relative;
-  }
-  #myLinks {
-    display: inline-block;
-  }
-  .topnav #myLinks {
-    display: none;
-  }
-  .topnav,
-  a:link {
-    color: #ffffff;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    text-shadow: -2px -1px 0 #000000;
-  }
-  a:visited {
-    color: #8d8d8d;
-  }
-  /*Main*/
-  main {
-    margin: 1.5em 0 1.5em 0;
-    width: 100%;
-  }
-  #tempImage {
-    display: none;
-  }
-  #article1 {
-    background-color: #ffffff;
-    padding: 1.5em 1.5em 1.5em 1em;
-  }
-  #article1 h2 {
-    color: #000000;
-    text-shadow: -1px -1px 0 #ff0000;
-  }
-  #p1 {
-    text-align: justify;
-  }
-  #article2 h2 {
-    color: #000000;
-    text-shadow: -1px -1px 0 #ff0000;
-  }
-  #article2 {
-    background-color: #ffffff;
-    padding: 1em 1.5em 1.5em 1em;
-    overflow: auto;
-    margin-top: 2em;
-  }
-  #p2 {
-    text-align: justify;
-  }
-  #section2 {
-    color: #ff0000;
-    border-top: 2px solid #ff0000;
-  }
-  button {
-    border: none;
-    display: block;
-    font-size: 1em;
-    cursor: pointer;
-    outline: none;
-  }
-  #faqlist {
-    color: #000000;
-    padding-left: 1em;
-  }
-  #article3 h2 {
-    color: #000000;
-    text-shadow: -1px -1px 0 #ff0000;
-  }
-  #article3 {
-    background-color: #ffffff;
-    padding: 1em 1.5em 1.5em 1em;
-    overflow: auto;
-    margin-top: 2em;
-  }
-  #p3 {
-    text-align: justify;
-  }
-  /*Footer*/
-  /*Footer*/
-  footer {
-    background-color: #363636;
-    overflow: auto;
-    border-top: solid 5px #990000;
-    opacity: 0.9;
-    width: 100%;
-    padding: 0;
-    margin-top: 1.3em;
-  }
-  .container {
-    display: inline-block;
-  }
-  footer .container p {
-    padding-top: 2em;
-    padding-left: 1em;
-    text-align: center;
-    color: #ffffff;
-  }
-  footer .container ul {
-    display: none;
-  }
-  .container #socialmedia {
-    margin-left: 3em;
-    padding-left: 2em;
-  }
-}
-/*Tablet*/
-@media only screen and (min-device-width: 750px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  * {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  body {
-    background-color: #c0c0c0;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  /*Header*/
-  header {
-    background-color: #363636;
-    overflow: auto;
-    border-bottom: solid 5px #990000;
-    opacity: 0.9;
-  }
-  header h1 {
-    float: right;
-    font-size: 1.5em;
-    margin: 1.5em 0 0 1em;
-    padding: 0 1em 1em 2em;
-    color: #ffffff;
-  }
-  /*Menu and Dropdown*/
-  /*Hamburger Menu*/
-  #menu {
-    display: none;
-  }
-  .hamburgerBars {
-    display: block;
-    cursor: pointer;
-    padding-left: 3em;
-    padding-top: 3em;
-  }
-  .bar1,
-  .bar2,
-  .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #ffffff;
-    margin: 6px 0;
-    transition: 0.4s;
-    display: block;
-  }
-  .mobile-container {
-    margin: auto;
-  }
-  .topnav {
-    overflow: hidden;
-    position: relative;
-  }
-  #myLinks {
-    display: inline-block;
-  }
-  .topnav #myLinks {
-    display: none;
-  }
-  .topnav,
-  a:link {
-    color: #ffffff;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    text-shadow: -2px -1px 0 #000000;
-  }
-  a:visited {
-    color: #8d8d8d;
-  }
-  /*Main*/
-  #tempImage {
-    width: 20%;
-    height: 20%;
-    float: left;
-    padding: 1em 1em 0 1em;
-  }
-  #article1 {
-    background-color: #ffffff;
-    overflow: auto;
-    padding: 0 2em 0 1.5em;
-    margin: 0;
-  }
-  #article1 h2 {
-    color: #000000;
-    text-shadow: -1px -1px 0 #ff0000;
-    padding-left: 2em;
-  }
-  #p1 {
-    text-align: justify;
-  }
-  #article2 h2 {
-    color: #000000;
-    text-shadow: -1px -1px 0 #ff0000;
-    padding-left: 2em;
-  }
-  #article2 {
-    background-color: #ffffff;
-    overflow: auto;
-    margin-top: 2em;
-    padding: 0;
-  }
-  #section1 {
-    float: left;
-    width: 60%;
-    padding: 1em 0 1.5em 1.5em;
-  }
-  #p2 {
-    text-align: justify;
-  }
-  #section2 {
-    color: #ff0000;
-    float: right;
-    width: 30%;
-    border-left: 2px solid #ff0000;
-    border-top: none;
-    padding: 1em 0 2em 2em;
-  }
-  button {
-    border: none;
-    display: block;
-    font-size: 1em;
-    cursor: pointer;
-    outline: none;
-  }
-  #faqlist {
-    color: #000000;
-    padding-left: 1em;
-  }
-  #article3 h2 {
-    color: #000000;
-    text-shadow: -1px -1px 0 #ff0000;
-    padding-left: 2em;
-  }
-  #article3 {
-    background-color: #ffffff;
-    padding: 1em 1.5em 1.5em 1em;
-    overflow: auto;
-    margin-top: 2em;
-  }
-  #p3 {
-    text-align: justify;
-  }
-  /*Footer*/
-  footer {
-    background-color: #363636;
-    overflow: auto;
-    border-top: solid 5px #990000;
-    opacity: 0.9;
-    width: 100%;
-    padding: 0;
-    margin-top: 1.3em;
-  }
-  .container {
-    display: inline;
-  }
-  footer .container p {
-    float: left;
-    margin-left: 2em;
-    padding-top: 2em;
-    text-align: center;
-    color: #ffffff;
-  }
-  footer .container ul {
-    display: none;
   }
   .container #socialmedia {
     float: right;

@@ -57,7 +57,6 @@
                 <div id="aboutUs">
                    <h2>About Us</h2>
                <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, sexual orientations and cultural backgrounds. We offer Events for Every Body.</p>
-                    <a href="<?php echo BASE_URL; ?>register"><img src="images/register.png" alt="Register button" id="registerButton"></a>
             </div>
         </article>
         
